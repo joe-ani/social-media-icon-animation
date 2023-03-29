@@ -1,0 +1,55 @@
+body {
+  background: rgb(58, 58, 75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.icon-container {
+  display: flex;
+  gap: 30px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.icon-container .fa-instagram,
+.icon-container .fa-github,
+.icon-container .fa-linkedin-in,
+.icon-container .fa-twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  transition: 400ms cubic-bezier(0.32, 0, 0.21, 1.02);
+}
+
+.icon-container .fa-instagram {
+  background: linear-gradient(to bottom, purple, red, orange);
+}
+.icon-container .fa-twitter {
+  background-color: rgb(41, 135, 218);
+}
+
+.icon-container .fa-linkedin-in {
+  background-color: rgb(20, 99, 168);
+}
+
+.icon-container .fa-github {
+    background: rgb(47, 47, 47);
+}
+.icon-container .fa-instagram:hover {
+  transform: translateY(-20px);
+}
+.icon-container .fa-linkedin-in:hover {
+  transform: translateY(-20px);
+}
+.icon-container .fa-github:hover {
+  transform: translateY(-20px);
+}
+.icon-container .fa-twitter:hover {
+  transform: translateY(-20px);
+}
